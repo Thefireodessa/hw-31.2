@@ -1,0 +1,20 @@
+{
+  "name": "hw-31.2",
+  "version": "1.0.0",
+  "description": "Diploma",
+  "main": "src/pages/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmytro Kurinnyi",
+  "license": "ISC",
+  "devDependencies": {
+    "stylelint": "^16.2.0",
+    "stylelint-config-clean-order": "^5.4.0",
+    "stylelint-config-standard-scss": "^13.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.3"
+  }
+}

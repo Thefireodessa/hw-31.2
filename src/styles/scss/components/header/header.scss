@@ -1,0 +1,56 @@
+.header {
+  padding-top: 50px;
+  position: absolute;
+  width: 100%;
+  .services {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  &-top {
+    margin-bottom: -30px;
+
+    &__wrapper > div:not(:last-child) {
+      display: flex;
+      align-items: center;
+      margin-right: 6px;
+
+      &:after {
+        content: '';
+        display: block;
+        border-radius: 50%;
+        width: 6px;
+        height: 6px;
+        background: white;
+        margin-left: 6px;
+      }
+    }
+
+
+    &__lang {
+      &-title {
+        color: white;
+        font-weight: 700;
+        font-size: 12px;
+        padding: 5px 7px;
+        border-radius: 8px;
+      }
+
+      input:checked + span {
+        background: red;
+      }
+    }
+
+  }
+
+  .navbar-nav {
+    margin-bottom: -30px;
+
+    a {
+      color: white;
+      font-weight: 700;
+      text-transform: lowercase;
+    }
+  }
+}
