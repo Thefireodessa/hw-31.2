@@ -2,6 +2,9 @@ $nav-link-padding-y: 0;
 $nav-link-padding-x: 0;
 $navbar-nav-link-padding-x: 0;
 $navbar-light-active-color: white;
+$nav-tabs-link-active-bg: none;
+$nav-tabs-border-width: none;
+$nav-tabs-link-active-color: #F0145A;
 
 $bootstrap-icons-font-dir: "./../../../node_modules/bootstrap-icons/font/fonts";
 @import "./../../../../node_modules/bootstrap/scss/bootstrap";

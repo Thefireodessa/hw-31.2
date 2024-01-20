@@ -1,4 +1,14 @@
 @charset "UTF-8";
+.banner {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.banner {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -3769,13 +3779,13 @@ textarea.form-control-lg {
 }
 
 .nav-tabs {
-  --bs-nav-tabs-border-width: var(--bs-border-width);
+  --bs-nav-tabs-border-width: none;
   --bs-nav-tabs-border-color: var(--bs-border-color);
   --bs-nav-tabs-border-radius: var(--bs-border-radius);
   --bs-nav-tabs-link-hover-border-color: var(--bs-secondary-bg) var(--bs-secondary-bg) var(--bs-border-color);
-  --bs-nav-tabs-link-active-color: var(--bs-emphasis-color);
-  --bs-nav-tabs-link-active-bg: var(--bs-body-bg);
-  --bs-nav-tabs-link-active-border-color: var(--bs-border-color) var(--bs-border-color) var(--bs-body-bg);
+  --bs-nav-tabs-link-active-color: #F0145A;
+  --bs-nav-tabs-link-active-bg: none;
+  --bs-nav-tabs-link-active-border-color: var(--bs-border-color) var(--bs-border-color) none;
   border-bottom: var(--bs-nav-tabs-border-width) solid var(--bs-nav-tabs-border-color);
 }
 .nav-tabs .nav-link {
@@ -11856,8 +11866,8 @@ textarea.form-control-lg {
   }
 }
 /*!
- * Bootstrap Icons v1.11.2 (https://icons.getbootstrap.com/)
- * Copyright 2019-2023 The Bootstrap Authors
+ * Bootstrap Icons v1.11.3 (https://icons.getbootstrap.com/)
+ * Copyright 2019-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/icons/blob/main/LICENSE)
  */
 @font-face {
@@ -20105,6 +20115,7 @@ body {
   padding-top: 50px;
   position: absolute;
   width: 100%;
+  z-index: 2;
 }
 .header .services {
   font-size: 36px;
@@ -20113,6 +20124,7 @@ body {
 }
 .header-top {
   margin-bottom: -30px;
+  z-index: 1;
 }
 .header-top__wrapper > div:not(:last-child) {
   display: flex;
@@ -20165,6 +20177,51 @@ body {
   .header-top__address, .header-top__socials {
     display: none !important;
   }
+}
+
+.banner {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.banner {
+  background-image: url("./../../assets/images/symbol.png");
+  background-size: contain;
+  padding-top: 150px;
+  height: 100vh;
+  min-height: 400px;
+}
+.banner h1, .banner .h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.banner__scroll {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 30px;
+}
+
+.tabs li {
+  font-size: 38px;
+}
+.tabs li button {
+  color: #B3B3BA;
+}
+.tabs button:hover {
+  color: #F0145A;
+}
+.tabs h3, .tabs .h3 {
+  font-size: 30px;
+}
+.tabs span {
+  font-size: 19px;
 }
 
 /*# sourceMappingURL=home-page.css.map */

@@ -1,5 +1,30 @@
+@use './../../common/variables' as var;
+@use './../../common/mixins' as *;
+
 .banner {
-  min-height: 720px;
-  max-height: 100vh;
-  background-image: url("./../../../../assets/images/symbol.png");
+  @include bg_img_center(get_path('images/symbol.png'), contain);
+  padding-top: var.$header_height;
+  height: 100vh;
+  min-height: 400px;
+  //display: flex;
+  //align-items: center;
+
+  h1 {
+    //margin-top: -$header_height;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: var.$color-light;
+    text-align: center;
+    font-weight: var.$fw-bold;
+    text-transform: capitalize;
+  }
+
+&__scroll {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 30px;
+}
 }
