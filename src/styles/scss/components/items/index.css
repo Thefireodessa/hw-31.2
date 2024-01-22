@@ -1,3 +1,8 @@
+.items h6 {
+  color: #323264;
+  font-size: 14px;
+  font-weight: 700;
+}
 .items img {
   width: 25%;
 }
