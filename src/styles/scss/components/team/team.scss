@@ -1,0 +1,38 @@
+.team {
+  padding-bottom: 80px;
+
+  .card {
+    background: #EDEDF7;
+  }
+
+  .carousel-indicators {
+    margin-bottom: -30px;
+    gap: 10px;
+  }
+
+  button {
+    border-radius: 50%;
+  }
+
+  a {
+    font-size: 14px;
+    font-weight: 700;
+    color: #24A3FF;
+  }
+  .card-text {
+    font-size: 28px;
+    font-weight: 700;
+    color: red;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+    .text-body-secondary {
+      font-size: 16px;
+      font-weight: 700;
+      color: #B3B3BA;
+    }
+    .text-body-secondary1 {
+      font-size: 14px;
+    }
+  }
+}

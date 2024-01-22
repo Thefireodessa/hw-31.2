@@ -6094,8 +6094,8 @@ textarea.form-control-lg {
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
   flex: 0 1 auto;
-  width: 30px;
-  height: 3px;
+  width: 15px;
+  height: 15px;
   padding: 0;
   margin-right: 3px;
   margin-left: 3px;
@@ -6134,10 +6134,10 @@ textarea.form-control-lg {
   filter: invert(1) grayscale(100);
 }
 .carousel-dark .carousel-indicators [data-bs-target] {
-  background-color: #000;
+  background-color: #24A3FF;
 }
 .carousel-dark .carousel-caption {
-  color: #000;
+  color: #24A3FF;
 }
 
 [data-bs-theme=dark] .carousel .carousel-control-prev-icon,
@@ -6146,10 +6146,10 @@ textarea.form-control-lg {
   filter: invert(1) grayscale(100);
 }
 [data-bs-theme=dark] .carousel .carousel-indicators [data-bs-target], [data-bs-theme=dark].carousel .carousel-indicators [data-bs-target] {
-  background-color: #000;
+  background-color: #24A3FF;
 }
 [data-bs-theme=dark] .carousel .carousel-caption, [data-bs-theme=dark].carousel .carousel-caption {
-  color: #000;
+  color: #24A3FF;
 }
 
 .spinner-grow,
@@ -20109,7 +20109,7 @@ body {
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
   padding-bottom: 60px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 .gradient:before, .gradient:after {
   display: inline-block;
@@ -20302,6 +20302,44 @@ body {
   padding: 10px;
   border-radius: 10px;
   background-color: white;
+}
+
+.team {
+  padding-bottom: 80px;
+}
+.team .card {
+  background: #EDEDF7;
+}
+.team .carousel-indicators {
+  margin-bottom: -30px;
+  gap: 10px;
+}
+.team button {
+  border-radius: 50%;
+}
+.team a {
+  font-size: 14px;
+  font-weight: 700;
+  color: #24A3FF;
+}
+.team .card-text {
+  font-size: 28px;
+  font-weight: 700;
+  color: red;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.team .card-text .text-body-secondary {
+  font-size: 16px;
+  font-weight: 700;
+  color: #B3B3BA;
+}
+.team .card-text .text-body-secondary1 {
+  font-size: 14px;
+}
+
+.items img {
+  width: 25%;
 }
 
 /*# sourceMappingURL=home-page.css.map */

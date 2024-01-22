@@ -5,6 +5,11 @@ $navbar-light-active-color: white;
 $nav-tabs-link-active-bg: none;
 $nav-tabs-border-width: none;
 $nav-tabs-link-active-color: #F0145A;
+$carousel-indicator-width: 15px;
+$carousel-indicator-height: 15px;
+$carousel-dark-indicator-active-bg: #24A3FF;
+$carousel-dark-caption-color: #24A3FF;
+
 
 $bootstrap-icons-font-dir: "./../../../node_modules/bootstrap-icons/font/fonts";
 @import "./../../../../node_modules/bootstrap/scss/bootstrap";
