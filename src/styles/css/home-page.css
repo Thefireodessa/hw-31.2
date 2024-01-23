@@ -20251,6 +20251,7 @@ body {
 
 .services h1, .services .h1 {
   font-size: 38px;
+  font-weight: 700;
   color: #F0145A;
 }
 .services h4, .services .h4 {
@@ -20261,8 +20262,9 @@ body {
   font-size: 16px;
 }
 .services a {
-  color: #B3B3BA;
+  color: #24A3FF;
   font-size: 14px;
+  font-weight: 700;
 }
 .services a:hover {
   color: #F0145A;
@@ -20322,6 +20324,9 @@ body {
   font-weight: 700;
   color: #24A3FF;
 }
+.team a:hover {
+  color: #F0145A;
+}
 .team .card-text {
   font-size: 28px;
   font-weight: 700;
@@ -20345,6 +20350,59 @@ body {
 }
 .items img {
   width: 25%;
+}
+.items .img1 {
+  border-top-left-radius: 9px;
+}
+.items .img2 {
+  border-top-right-radius: 9px;
+}
+.items .img3 {
+  border-bottom-left-radius: 9px;
+}
+.items .img4 {
+  border-bottom-right-radius: 9px;
+}
+
+.publications {
+  background: #F5F5FA;
+}
+.publications a {
+  color: #24A3FF;
+  font-size: 14px;
+  font-weight: 700;
+}
+.publications a:hover {
+  color: #F0145A;
+}
+.publications h1, .publications .h1 {
+  color: #F0145A;
+  font-size: 38px;
+  font-weight: 700;
+}
+.publications .card-group {
+  gap: 30px;
+}
+.publications .card-group .card {
+  border-radius: 9px;
+}
+.publications .card-group .card hr {
+  font-weight: bolder;
+}
+.publications .card-group h5, .publications .card-group .h5 {
+  color: #24A3FF;
+  font-size: 16px;
+  font-weight: 700;
+}
+.publications .card-group .card-text {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+}
+.publications .card-group .text-body-secondary {
+  color: #B3B3BA;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=home-page.css.map */

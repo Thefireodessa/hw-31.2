@@ -1,0 +1,47 @@
+.publications {
+  background: #F5F5FA;
+
+  a {
+    color: #24A3FF;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  a:hover {
+    color: #F0145A;
+  }
+
+  h1 {
+    color: #F0145A;
+    font-size: 38px;
+    font-weight: 700;
+  }
+
+  .card-group {
+    gap: 30px;
+
+    .card {
+      border-radius: 9px;
+
+      hr{
+        font-weight: bolder;
+      }
+    }
+
+    h5 {
+      color: #24A3FF;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .card-text {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 400;
+    }
+    .text-body-secondary {
+      color: #B3B3BA;
+      font-size: 12px;
+      font-weight: 700;
+    }
+  }
+}
