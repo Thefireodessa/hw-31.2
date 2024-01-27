@@ -44,4 +44,17 @@
       font-weight: 700;
     }
   }
+
+  .card-group:after {
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    width: 100%;
+    left: 0;
+    height: 2px;
+    background-color: #E6E6F0;
+  }
 }
+
+
+
