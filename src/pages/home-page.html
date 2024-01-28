@@ -79,7 +79,7 @@
                         <a class="nav-link active" aria-current="page" href="#">publications</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">contact</a>
+                        <a class="nav-link active" aria-current="page" data-bs-toggle="modal" data-bs-target="#contactModal" href="#">contact</a>
                     </li>
                 </ul>
             </div>
@@ -384,32 +384,71 @@
         </div>
     </section>
 
-    <footer class="footer pb-4">
-        <div class="container">
-            <div class="d-flex justify-content-between pt-5">
+</main>
+
+<footer class="footer pb-4">
+    <div class="container">
+        <div class="d-flex justify-content-between pt-5">
                 <span class="d-flex gap-3">
                     <div class="footer__address">Kyiv, Mechnikova str, 14/1</div>
                     <div class="footer__map"><a class="text-decoration-none" target="_blank" href="https://www.google.com/maps?q=Kyiv,+Mechnikova+str,+14/1&rlz=1C1NHXL_ruUA737UA737&um=1&ie=UTF-8">
                         ON MAP
                     </a></div>
                 </span>
-                <p class="footer__label">© 2021 HLEGAL Law company, LLC </p>
-            </div>
-            <span class="d-flex gap-3">
+            <p class="footer__label">© 2021 HLEGAL Law company, LLC </p>
+        </div>
+        <span class="d-flex gap-3">
                 <div><a class="footer__logo" target="_blank" href="https://www.facebook.com"> <img src="./../assets/images/facebook.png" alt="Facebook-icon"></a></div>
                 <div><p class="footer__phone pt-1">0800 211 927</p></div>
                 <div><p class="footer__mail pt-1">contact@forstudy.space</p></div>
             </span>
+    </div>
+</footer>
+
+
+
+
+<!-- Modal -->
+<div class="modal fade modal-contacts" id="contactModal" tabindex="-1" aria-labelledby="Contacts" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header modal-contacts__header">
+                <h1 class="modal-title modal-contacts__title" id="Contacts">We would like to help you</h1>
+                <button type="button" class="btn btn-lg modal-contacts__close-btn" data-bs-dismiss="modal" aria-label="Close">
+                    <i class="bi bi-x-lg"></i>
+                </button>
+            </div>
+            <div class="modal-body modal-contacts__body">
+                <form>
+                    <div class="form-floating mb-3">
+                        <input name="user_name" type="text" class="form-control" id="floatingInput" placeholder="Name">
+                        <label for="floatingInput">Name</label>
+                    </div>
+
+                    <div class="form-floating mb-4">
+                        <textarea name="message" class="form-control" placeholder="Message" id="floatingTextarea2" style="height: 130px"></textarea>
+                        <label for="floatingTextarea2">Message</label>
+                    </div>
+
+                    <div class="modal-contacts__subtitle mb-3">How to answer you?</div>
+                    <div class="form-floating mb-3">
+                        <input name="phone" type="tel" class="form-control" id="phoneNumber" placeholder="Phone number">
+                        <label for="phoneNumber">Phone number</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input name="email" type="email" class="form-control" id="emailField" placeholder="Email">
+                        <label for="emailField">Email</label>
+                    </div>
+
+                </form>
+            </div>
+            <div class="modal-footer modal-contacts__footer">
+                <button type="button" class="btn w-100 btn-blue">Send message</button>
+            </div>
         </div>
-    </footer>
-
-
-
-
-
-
-
-</main>
+    </div>
+</div>
 
 
 <script src="./../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
