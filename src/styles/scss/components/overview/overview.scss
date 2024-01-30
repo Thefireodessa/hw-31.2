@@ -1,0 +1,39 @@
+.overview {
+
+  .row {
+    padding-left: 120px;
+    padding-right: 120px;
+
+    h1 {
+      font-weight: 700;
+      font-size: 38px;
+      background: -webkit-linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+    }
+
+    h2 {
+      font-weight: 700;
+      font-size: 36px;
+      background: -webkit-linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .overview__left-par {
+      font-weight: 400;
+      font-size: 19px;
+      color: #000000;
+    }
+
+    .overview__right-par {
+      font-weight: 400;
+      font-size: 16px;
+      color: #323264;
+    }
+  }
+}
