@@ -1,0 +1,22 @@
+@use './../../common/variables' as var;
+@use './../../common/mixins' as *;
+
+.banner-about {
+  @include bg_img_center(get_path('images/team.png'), cover);
+  min-height: 450px;
+  max-height: 100vh;
+
+  span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    h1 {
+      font-weight: 700;
+      font-size: 96px;
+      color: white;
+      letter-spacing: 50px;
+    }
+  }
+}

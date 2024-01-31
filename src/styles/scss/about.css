@@ -1,4 +1,14 @@
 @charset "UTF-8";
+.banner-about {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.banner-about {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -20223,6 +20233,33 @@ body {
   font-weight: 400;
   font-size: 16px;
   color: #323264;
+}
+.overview .row .col-4 {
+  border-left: 2px;
+}
+
+.banner-about {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.banner-about {
+  background-image: url("./../../assets/images/team.png");
+  background-size: cover;
+  min-height: 450px;
+  max-height: 100vh;
+}
+.banner-about span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner-about span h1, .banner-about span .h1 {
+  font-weight: 700;
+  font-size: 96px;
+  color: white;
+  letter-spacing: 50px;
 }
 
 .footer {
