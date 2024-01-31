@@ -20262,6 +20262,25 @@ body {
   letter-spacing: 50px;
 }
 
+.overview2 .row {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.overview2 .row h1, .overview2 .row .h1 {
+  font-weight: 700;
+  font-size: 38px;
+  background: -webkit-linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.overview2 .row p {
+  font-weight: 400;
+  font-size: 19px;
+  color: #000000;
+}
+
 .footer {
   background: #F5F5FA;
 }

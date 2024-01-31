@@ -1,0 +1,23 @@
+.overview2 {
+
+  .row {
+    padding-left: 120px;
+    padding-right: 120px;
+
+    h1 {
+      font-weight: 700;
+      font-size: 38px;
+      background: -webkit-linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 19px;
+      color: #000000;
+    }
+  }
+}
