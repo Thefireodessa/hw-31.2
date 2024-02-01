@@ -1,0 +1,52 @@
+.achievements {
+  background-color: #F5F5FA;
+
+  h3 {
+    color: #323264;
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  &__part {
+    display: flex;
+    background: white;
+    gap: 30px;
+    border-radius: 10px;
+    justify-content: center;
+  }
+
+  &__icon {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+  }
+
+  .carousel-indicators {
+    margin-bottom: -50px;
+    gap: 10px;
+  }
+
+  button {
+    border-radius: 50%;
+  }
+
+  .carousel:after {
+    content: '';
+    position: absolute;
+    bottom: -70px;
+    width: 100%;
+    left: 0;
+    height: 2px;
+    background-color: #E6E6F0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
