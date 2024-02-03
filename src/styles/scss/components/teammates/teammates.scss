@@ -1,0 +1,35 @@
+.teammates {
+  h1 {
+    font-weight: 700;
+    font-size: 38px;
+    background: -webkit-linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+
+  h4 {
+    color: #323264;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  h4:hover {
+    color: #F0145A;
+  }
+
+  p {
+    color: #B3B3BA;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  img {
+    border-radius: 9px;
+  }
+
+  img:hover {
+    color: #F0145A;
+  }
+}
