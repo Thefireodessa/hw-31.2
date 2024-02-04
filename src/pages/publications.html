@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="./../styles/css/contact.css">
+    <link rel="stylesheet" href="./../styles/css/publications.css">
 </head>
 <body>
 
@@ -58,7 +58,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="21" height="47" viewBox="0 0 21 47" fill="none">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M15.1752 0H21L5.82482 47H0L15.1752 0Z" fill="#F0145A"/>
                     </svg>
-                    <span class="services">contact</span>
+                    <span class="services">publications</span>
                 </span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -79,7 +79,7 @@
                         <a class="nav-link active" aria-current="page" href="./../pages/publications.html">publications</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">contact</a>
+                        <a class="nav-link active" aria-current="page" href="./../pages/contact.html">contact</a>
                     </li>
                 </ul>
             </div>
@@ -91,54 +91,77 @@
 
 <main>
 
-    <section class="contacts-info mt-5 mb-5">
+
+    <section class="publications mt-4">
         <div class="container">
-            <div class="row contacts-info__row justify-content-between">
-                <div class="col-6 d-flex flex-column gap-4 contacts-info__left">
-                    <span><p>Kyiv, <br> Mechnikova str, 14</p></span>
-                    <span class="hui"><p>0800 211 927</p>
-                    <a class="text-decoration-none" target="_blank" href="#">contact@forstudy.space</a></span>
-                    <span><a target="_blank" href="https://www.facebook.com"> <img src="./../assets/images/facebook.png" alt="Facebook-icon"></a>
-                    <b>OUR PAGE ON FACEBOOK</b></span>
-                </div>
+            <div class="text-center">
+            <div class="publications__btn-group btn-group mt-4 mb-4 border-0" role="group">
+                <button type="button" class="btn btn-dark" onclick="toggleContent('news')">news</button>
+                <button type="button" class="btn btn-light" onclick="toggleContent('articles')">articles</button>
+            </div>
+            </div>
 
-                <div class="col-5 contacts-info__right">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header modal-contacts__header">
-                                <h1 class="modal-title modal-contacts__title pt-3 pb-3" id="Contacts">We would like to help you</h1>
-                            </div>
-                            <div class="modal-body modal-contacts__body">
-                                <form>
-                                    <div class="form-floating mb-3">
-                                        <input name="user_name" type="text" class="form-control" id="floatingInput" placeholder="Name">
-                                        <label for="floatingInput">Name</label>
-                                    </div>
-
-                                    <div class="form-floating mb-4">
-                                        <textarea name="message" class="form-control" placeholder="Message" id="floatingTextarea2" style="height: 130px"></textarea>
-                                        <label for="floatingTextarea2">Message</label>
-                                    </div>
-
-                                    <div class="modal-contacts__subtitle mb-3">How to answer you?</div>
-                                    <div class="form-floating mb-3">
-                                        <input name="phone" type="tel" class="form-control" id="phoneNumber" placeholder="Phone number">
-                                        <label for="phoneNumber">Phone number</label>
-                                    </div>
-
-                                    <div class="form-floating mb-3">
-                                        <input name="email" type="email" class="form-control" id="emailField" placeholder="Email">
-                                        <label for="emailField">Email</label>
-                                    </div>
-
-                                </form>
-                            </div>
-                            <div class="modal-footer modal-contacts__footer pb-4">
-                                <button type="button" class="btn w-100 btn-blue">Send message</button>
-                            </div>
-                        </div>
+            <div class="publications__card-group card-group position-relative">
+                <div class="publications__card card border-0">
+                    <img src="./../assets/images/pub1.png" class="card-img-top" alt="Publication-image">
+                    <div class="card-body">
+                        <h5 class="card-title">Equity associate</h5>
+                        <p class="card-text"><small class="text-body-secondary">April 22</small></p>
+                        <hr>
+                        <p class="card-text">I'm a jun on projects. I am a co-owner of a law firm. How it happened. Before entering my parents told me that if I…</p>
                     </div>
                 </div>
+                <div class="card border-0">
+                    <img src="./../assets/images/pub2.png" class="card-img-top" alt="Publication-image">
+                    <div class="card-body">
+                        <h5 class="card-title">Penalty for the Good Corporation: what will happen to Google and others for violating the GDPR</h5>
+                        <p class="card-text"><small class="text-body-secondary">September 29</small></p>
+                        <hr>
+                        <p class="card-text">And why the recovery of 50 million euros could be a fateful precedent According to Mind.ua January 21 National Commission for Data Protection.</p>
+                    </div>
+                </div>
+                <div class="card border-0">
+                    <img src="./../assets/images/pub3.png" class="card-img-top" alt="Publication-image">
+                    <div class="card-body">
+                        <h5 class="card-title">Millennial Testament</h5>
+                        <p class="card-text"><small class="text-body-secondary">August 19</small></p>
+                        <hr>
+                        <p class="card-text">What and how modern vloggers, opinion leaders and crypto-millionaires will inherit A typical legacy of the Ukrainian generation X looks like this: an apartment in…</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="publications__card-group publications__card-group2 card-group position-relative mt-4">
+                <div class="publications__card card border-0">
+                    <img src="./../assets/images/pub4.png" class="card-img-top" alt="Publication-image">
+                    <div class="card-body">
+                        <h5 class="card-title">Language Law: How to Make Your Website Relevant</h5>
+                        <p class="card-text"><small class="text-body-secondary">August 19</small></p>
+                        <hr>
+                        <p class="card-text">Natalia Kyryk, head of content studio Wordfactory.ua First, it's beautiful! This is the number one argument in favor of the Ukrainian-language site. Secondly, it is effective. IN…</p>
+                    </div>
+                </div>
+                <div class="card border-0">
+                    <img src="./../assets/images/pub5.png" class="card-img-top" alt="Publication-image">
+                    <div class="card-body">
+                        <h5 class="card-title">Reimbursement of the child's tuition fees in kindergarten and school</h5>
+                        <p class="card-text"><small class="text-body-secondary">February 5, 2018</small></p>
+                        <hr>
+                        <p class="card-text">What we are talking about In June this year, the Verkhovna Rada amended the Tax Code of Ukraine. From now on, parents who receive an official…</p>
+                    </div>
+                </div>
+                <div class="card border-0">
+                    <div class="card-body">
+                        <h5 class="card-title">Currency control is dead, long live currency control!</h5>
+                        <p class="card-text"><small class="text-body-secondary">June 14, 2018</small></p>
+                        <hr>
+                        <p class="card-text">Experts hold conferences, round tables and other events on "liberalization of currency legislation." Lawyers-experts-novelists rub their fingers about "ctrl + c / ctrl + v".</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="publications__button text-center mt-4">
+                <button type="button" class="btn btn-blue">More publications</button>
             </div>
         </div>
     </section>
@@ -148,7 +171,7 @@
 
 
 
-<footer class="footer">
+<footer class="footer pt-5">
     <div class="container">
         <div class="d-flex justify-content-between">
                 <span class="d-flex gap-3 mt-4">
