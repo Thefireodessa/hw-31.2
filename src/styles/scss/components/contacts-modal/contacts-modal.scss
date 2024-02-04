@@ -29,3 +29,52 @@
   }
 
 }
+
+
+.contacts-info {
+  .contacts-info__row {
+    padding-left: 120px;
+    padding-right: 120px;
+
+    span {
+      font-weight: 400;
+      font-size: 21px;
+      color: #323264;
+    }
+
+    span:hover {
+      color: #F0145A;
+    }
+
+      span:not(:last-child)::after {
+        content: '';
+        display: inline-block;
+        width: 100%;
+        height: 4px;
+        background-color: #E6E6F0;
+      }
+
+    a {
+      color: #24A3FF;
+    }
+
+    a:hover {
+      color: #F0145A;
+    }
+
+    b {
+      font-weight: 700;
+      font-size: 14px;
+      color: #323264;
+    }
+
+    b:hover {
+      color: #F0145A;
+    }
+
+    .contacts-info__right {
+      background: #F5F5FA;
+      border-radius: 9px;
+    }
+  }
+}
