@@ -20261,7 +20261,11 @@ body {
 .services h1, .services .h1 {
   font-size: 38px;
   font-weight: 700;
-  color: #F0145A;
+  background: -webkit-linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
 .services h4, .services .h4 {
   color: #24A3FF;
@@ -20315,6 +20319,10 @@ body {
   background-color: white;
 }
 
+.services1 {
+  padding-top: 180px;
+}
+
 .team {
   padding-bottom: 80px;
 }
@@ -20336,19 +20344,23 @@ body {
 .team a:hover {
   color: #F0145A;
 }
-.team .card-text {
+.team .team__card-text {
   font-size: 28px;
   font-weight: 700;
-  color: red;
   padding-bottom: 0;
   margin-bottom: 0;
+  background: -webkit-linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
-.team .card-text .text-body-secondary {
+.team .team__card-text .text-body-secondary {
   font-size: 16px;
   font-weight: 700;
   color: #B3B3BA;
 }
-.team .card-text .text-body-secondary1 {
+.team .team__card-text .text-body-secondary1 {
   font-size: 14px;
 }
 
@@ -20385,9 +20397,13 @@ body {
   color: #F0145A;
 }
 .publications h1, .publications .h1 {
-  color: #F0145A;
   font-size: 38px;
   font-weight: 700;
+  background: -webkit-linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
 .publications .card-group {
   gap: 30px;
@@ -20510,6 +20526,44 @@ body {
 }
 .modal-contacts label {
   color: #B3B3BA;
+}
+
+.contacts-info .contacts-info__row {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.contacts-info .contacts-info__row span {
+  font-weight: 400;
+  font-size: 21px;
+  color: #323264;
+}
+.contacts-info .contacts-info__row span:hover {
+  color: #F0145A;
+}
+.contacts-info .contacts-info__row span:not(:last-child)::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 4px;
+  background-color: #E6E6F0;
+}
+.contacts-info .contacts-info__row a {
+  color: #24A3FF;
+}
+.contacts-info .contacts-info__row a:hover {
+  color: #F0145A;
+}
+.contacts-info .contacts-info__row b {
+  font-weight: 700;
+  font-size: 14px;
+  color: #323264;
+}
+.contacts-info .contacts-info__row b:hover {
+  color: #F0145A;
+}
+.contacts-info .contacts-info__row .contacts-info__right {
+  background: #F5F5FA;
+  border-radius: 9px;
 }
 
 /*# sourceMappingURL=home-page.css.map */

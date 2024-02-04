@@ -20261,7 +20261,11 @@ body {
 .services h1, .services .h1 {
   font-size: 38px;
   font-weight: 700;
-  color: #F0145A;
+  background: -webkit-linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
 .services h4, .services .h4 {
   color: #24A3FF;
@@ -20340,19 +20344,23 @@ body {
 .team a:hover {
   color: #F0145A;
 }
-.team .card-text {
+.team .team__card-text {
   font-size: 28px;
   font-weight: 700;
-  color: red;
   padding-bottom: 0;
   margin-bottom: 0;
+  background: -webkit-linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
-.team .card-text .text-body-secondary {
+.team .team__card-text .text-body-secondary {
   font-size: 16px;
   font-weight: 700;
   color: #B3B3BA;
 }
-.team .card-text .text-body-secondary1 {
+.team .team__card-text .text-body-secondary1 {
   font-size: 14px;
 }
 
@@ -20389,9 +20397,13 @@ body {
   color: #F0145A;
 }
 .publications h1, .publications .h1 {
-  color: #F0145A;
   font-size: 38px;
   font-weight: 700;
+  background: -webkit-linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
 .publications .card-group {
   gap: 30px;

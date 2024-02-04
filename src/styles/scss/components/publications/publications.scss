@@ -11,9 +11,13 @@
   }
 
   h1 {
-    color: #F0145A;
     font-size: 38px;
     font-weight: 700;
+    background: -webkit-linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
   }
 
   .card-group {
