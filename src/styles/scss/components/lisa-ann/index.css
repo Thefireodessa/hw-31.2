@@ -1,0 +1,13 @@
+.lisa-ann .lisa-ann-main__photo .hui {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.lisa-ann .lisa-ann-main__photo .hui {
+  background-image: url(get_path("images/ann-full.jpg"));
+  background-size: cover;
+  min-height: 450px;
+  max-height: 100vh;
+}
+
+/*# sourceMappingURL=index.css.map */
