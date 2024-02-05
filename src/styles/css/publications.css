@@ -20254,6 +20254,14 @@ body {
   height: 2px;
   background-color: #E6E6F0;
 }
+.publications .publications__btn-group {
+  background: lightgrey;
+}
+.publications .publications__btn-group .publications__btn {
+  color: #323264;
+  border-color: lightgrey;
+  border-radius: 9px;
+}
 
 .footer {
   background: #F5F5FA;

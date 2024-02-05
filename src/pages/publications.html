@@ -94,12 +94,18 @@
 
     <section class="publications mt-4">
         <div class="container">
-            <div class="text-center">
-            <div class="publications__btn-group btn-group mt-4 mb-4 border-0" role="group">
-                <button type="button" class="btn btn-dark" onclick="toggleContent('news')">news</button>
-                <button type="button" class="btn btn-light" onclick="toggleContent('articles')">articles</button>
+            <div class="publications__btn-area text-center">
+
+            <div class="btn-group publications__btn-group text-center mt-3 mb-3" role="group" aria-label="Basic radio toggle button group">
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                <label class="btn btn-outline-light publications__btn" for="btnradio1">news</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                <label class="btn btn-outline-light publications__btn" for="btnradio2">articles</label>
             </div>
+
             </div>
+
 
             <div class="publications__card-group card-group position-relative">
                 <div class="publications__card card border-0">
