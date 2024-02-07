@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="./../styles/css/publications.css">
+    <link rel="stylesheet" href="./../styles/css/publications-entry.css">
 </head>
 <body>
 
@@ -92,23 +92,59 @@
 <main>
 
 
-    <section class="publications mt-4">
+    <section class="publications-entry mt-4">
         <div class="container">
-            <div class="publications__btn-area text-center">
 
-            <div class="btn-group publications__btn-group text-center mt-3 mb-3" role="group" aria-label="Basic radio toggle button group">
-                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-                <label class="btn btn-outline-light publications__btn" for="btnradio1">news</label>
-
-                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-                <label class="btn btn-outline-light publications__btn" for="btnradio2">articles</label>
-            </div>
-
+            <div class="publications-entry__banner card border-0">
+                    <img src="./../assets/images/pub2.png" class="card-img-top" alt="Publication-image">
+                    <div class="card-body">
+                        <h5 class="card-title publications-entry__head">Penalty for the Good Corporation: what will happen to Google and others for violating the GDPR</h5>
+                        <p class="card-text publications-entry__date"><small class="text-body-secondary">September 29</small></p>
+                    </div>
             </div>
 
 
-            <div class="publications__card-group card-group position-relative">
-                <div class="publications__card card border-0">
+            <div class="publications-entry__content">
+                <p class="publications-entry__par mt-4"><small class="text-body-secondary">On January 21, the French National Data Protection Commission (CNIL) announced on its website that it had fined Google for violating the EU's General Data Protection Regulation (GDPR). It took six months for the EU countries to make a quality level-up in the amount of fines for non-compliance with this standard. Prior to that, the fine was mainly € 20,000-30,000, with the largest fine amounting to € 400,000 and related to a hospital in Portugal. But this precedent is interesting not so much the amount of the fine as the rigidity of the regulator's approaches. Denis Beregovyi, Axon Partners, explains why, especially for Mind.</small></p>
+                <p class="publications-entry__par"><small class="text-body-secondary">For what? The group complaints against Google arrived at CNIL on the same day that the GDPR came into force. The complainants reported that Google processed users' personal data without due cause, in particular to create personalized advertising offers.</small></p>
+                <h1 class="publications-entry__head mt-4">To the attention of Ukrainian security officers: the inspection was conducted online, without searches, without seizure of servers or other visible interference for business. And so it was possible.</h1>
+                <h3 class="publications-entry__head-sm mt-4">According to the results of CNIL inspections revealed violations of two requirements of the GDPR:</h3>
+                <span class="d-flex gap-2 mt-3 ps-3">
+                    <p class="publications-entry__content-number">1.</p>
+                    <p class="publications-entry__content-par">Transparency and awareness of users about the processing of personal data.</p>
+                </span>
+                <span class="d-flex gap-2 ps-3">
+                    <p class="publications-entry__content-number">2.</p>
+                    <p class="publications-entry__content-par">Lack of proper user consent for the processing of personal data for the purpose of personalizing advertising.</p>
+                </span>
+                <p class="publications-entry__par"><small class="text-body-secondary">In the case of personalization of advertising, Google was sure to obtain the consent of users, because, firstly, when creating Google accounts, the user agrees to the Privacy Policy, and secondly, Google has a section "Ads personalization", where you can disable this feature.</small></p>
+                <div class="publications-entry__screen text-center mt-4">
+                    <img src="./../assets/images/screen.png" alt="Screenshot " />
+                    <p class="publications-entry__screen-text mt-2">This is what the ad personalization settings window in your Google Account looks like</p>
+                </div>
+                <p class="publications-entry__par mt-4"><small class="text-body-secondary">However, CNIL does not think so, because the information about the personalization of advertising is not clear enough to users. As an example, the Commission claims that the relevant "Personalization" window does not contain information on the full range of Google services that collect and process personal data for this purpose (YouTube, Google search, Play Store, Google pictures, Gmail, etc.). ), and therefore, the user cannot realize to what extent the data is used and how exactly they can be combined.</small></p>
+                <h3 class="publications-entry__head-sm mt-4">So, let's walk through the text of the CNIL decision:</h3>
+                <p class="publications-entry__par mt-4"><small class="text-body-secondary">Why France and not Ireland. Google operates in Europe through a legal entity in Ireland. But the case was not initiated by the Irish, but by the French regulator. This is why it happened.</small></p>
+                <p class="publications-entry__par mt-4"><small class="text-body-secondary">If data processing decisions are taken anywhere outside the EU, there is a one-stop mechanism - where the complaint is received, the body considers it. Because Google's data processing center is located in the United States and the complaint was first received in France, CNIL considered it.</small></p>
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+
+
+
+
+    <section class="publications">
+        <div class="container">
+            <div class="pt-4"><a class="text-decoration-none" href="#">PUBLICATIONS ></a></div>
+            <h1 class="mb-4">Recommended</h1>
+
+            <div class="publications__card-group-main card-group position-relative">
+                <div class="card border-0">
                     <img src="./../assets/images/pub1.png" class="card-img-top" alt="Publication-image">
                     <div class="card-body">
                         <h5 class="card-title">Equity associate</h5>
@@ -118,9 +154,9 @@
                     </div>
                 </div>
                 <div class="card border-0">
-                    <a class="text-decoration-none" href="./../pages/publications-entry.html"><img src="./../assets/images/pub2.png" class="card-img-top" alt="Publication-image"></a>
+                    <img src="./../assets/images/pub2.png" class="card-img-top" alt="Publication-image">
                     <div class="card-body">
-                        <a class="text-decoration-none" href="./../pages/publications-entry.html"><h5 class="card-title">Penalty for the Good Corporation: what will happen to Google and others for violating the GDPR</h5></a>
+                        <h5 class="card-title">Penalty for the Good Corporation: what will happen to Google and others for violating the GDPR</h5>
                         <p class="card-text"><small class="text-body-secondary">September 29</small></p>
                         <hr>
                         <p class="card-text">And why the recovery of 50 million euros could be a fateful precedent According to Mind.ua January 21 National Commission for Data Protection.</p>
@@ -136,67 +172,29 @@
                     </div>
                 </div>
             </div>
-
-            <div class="publications__card-group publications__card-group2 card-group position-relative mt-4">
-                <div class="publications__card card border-0">
-                    <img src="./../assets/images/pub4.png" class="card-img-top" alt="Publication-image">
-                    <div class="card-body">
-                        <h5 class="card-title">Language Law: How to Make Your Website Relevant</h5>
-                        <p class="card-text"><small class="text-body-secondary">August 19</small></p>
-                        <hr>
-                        <p class="card-text">Natalia Kyryk, head of content studio Wordfactory.ua First, it's beautiful! This is the number one argument in favor of the Ukrainian-language site. Secondly, it is effective. IN…</p>
-                    </div>
-                </div>
-                <div class="card border-0">
-                    <img src="./../assets/images/pub5.png" class="card-img-top" alt="Publication-image">
-                    <div class="card-body">
-                        <h5 class="card-title">Reimbursement of the child's tuition fees in kindergarten and school</h5>
-                        <p class="card-text"><small class="text-body-secondary">February 5, 2018</small></p>
-                        <hr>
-                        <p class="card-text">What we are talking about In June this year, the Verkhovna Rada amended the Tax Code of Ukraine. From now on, parents who receive an official…</p>
-                    </div>
-                </div>
-                <div class="card border-0">
-                    <div class="card-body">
-                        <h5 class="card-title">Currency control is dead, long live currency control!</h5>
-                        <p class="card-text"><small class="text-body-secondary">June 14, 2018</small></p>
-                        <hr>
-                        <p class="card-text">Experts hold conferences, round tables and other events on "liberalization of currency legislation." Lawyers-experts-novelists rub their fingers about "ctrl + c / ctrl + v".</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="publications__button text-center mt-4">
-                <button type="button" class="btn btn-blue">More publications</button>
-            </div>
         </div>
     </section>
 
-
 </main>
 
-
-
-<footer class="footer pt-5">
+<footer class="footer pb-4">
     <div class="container">
-        <div class="d-flex justify-content-between">
-                <span class="d-flex gap-3 mt-4">
+        <div class="d-flex justify-content-between pt-5">
+                <span class="d-flex gap-3">
                     <div class="footer__address">Kyiv, Mechnikova str, 14/1</div>
                     <div class="footer__map"><a class="text-decoration-none" target="_blank" href="https://www.google.com/maps?q=Kyiv,+Mechnikova+str,+14/1&rlz=1C1NHXL_ruUA737UA737&um=1&ie=UTF-8">
                         ON MAP
                     </a></div>
                 </span>
-            <p class="footer__label mt-4">© 2021 HLEGAL Law company, LLC </p>
+            <p class="footer__label">© 2021 HLEGAL Law company, LLC </p>
         </div>
-        <span class="d-flex gap-3 pb-3">
+        <span class="d-flex gap-3">
                 <div><a class="footer__logo" target="_blank" href="https://www.facebook.com"> <img src="./../assets/images/facebook.png" alt="Facebook-icon"></a></div>
                 <div><p class="footer__phone pt-1">0800 211 927</p></div>
                 <div><p class="footer__mail pt-1">contact@forstudy.space</p></div>
             </span>
     </div>
 </footer>
-
-
 
 <script src="./../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>

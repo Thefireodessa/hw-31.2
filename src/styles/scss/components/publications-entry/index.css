@@ -1,0 +1,74 @@
+.publications-entry {
+  background: #F5F5FA;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.publications-entry a {
+  color: #24A3FF;
+  font-size: 14px;
+  font-weight: 700;
+}
+.publications-entry a:hover {
+  color: #F0145A;
+}
+.publications-entry h1 {
+  font-size: 38px;
+  font-weight: 700;
+  background: -webkit-linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.publications-entry .card-group {
+  gap: 30px;
+}
+.publications-entry .card-group .card {
+  border-radius: 9px;
+}
+.publications-entry .card-group .card hr {
+  font-weight: bolder;
+}
+.publications-entry .card-group h5 {
+  color: #24A3FF;
+  font-size: 16px;
+  font-weight: 700;
+}
+.publications-entry .card-group .card-text {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+}
+.publications-entry .card-group .text-body-secondary {
+  color: #B3B3BA;
+  font-size: 12px;
+  font-weight: 700;
+}
+.publications-entry .card-group:after {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
+  left: 0;
+  height: 2px;
+  background-color: #E6E6F0;
+}
+.publications-entry .publications__card-group2:after {
+  content: "";
+  position: absolute;
+  bottom: -130px;
+  width: 100%;
+  left: 0;
+  height: 2px;
+  background-color: #E6E6F0;
+}
+.publications-entry .publications__btn-group {
+  background: lightgrey;
+}
+.publications-entry .publications__btn-group .publications__btn {
+  color: #323264;
+  border-color: lightgrey;
+  border-radius: 9px;
+}
+
+/*# sourceMappingURL=index.css.map */
