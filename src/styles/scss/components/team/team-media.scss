@@ -1,0 +1,33 @@
+@use "./../../common/variables" as var;
+
+.team {
+  @media (width <= 992px) {
+    .container {
+      max-width: 992px;
+    }
+  }
+
+  @media (width <= 767px) {
+    .team__card-body {
+      .team__card-text {
+        font-size: 22px;
+      }
+    }
+
+    .team__indicator {
+      margin-bottom: 10px !important;
+    }
+  }
+
+  @media (width <= 556px) {
+    .team__card-body {
+      .team__card-text {
+        font-size: 22px;
+      }
+    }
+
+    .team__indicator {
+      margin-bottom: -10px !important;
+    }
+  }
+}

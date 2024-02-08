@@ -20323,6 +20323,52 @@ body {
   padding-top: 180px;
 }
 
+.services__text {
+  color: #FFFFFF;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.services__service-page {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.services__service-page:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 4px;
+  background-color: #FFFFFF;
+}
+
+.services__area {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.services__area h3, .services__area .h3 {
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: 700;
+}
+.services__area p {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 400;
+}
+.services__area p:before {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  background: #F0145A;
+  margin-left: 6px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: -20px;
+}
+
 .team {
   padding-bottom: 80px;
 }
@@ -20362,6 +20408,28 @@ body {
 }
 .team .team__card-text .text-body-secondary1 {
   font-size: 14px;
+}
+
+@media (width <= 992px) {
+  .team .container {
+    max-width: 992px;
+  }
+}
+@media (width <= 767px) {
+  .team .team__card-body .team__card-text {
+    font-size: 22px;
+  }
+  .team .team__indicator {
+    margin-bottom: 10px !important;
+  }
+}
+@media (width <= 556px) {
+  .team .team__card-body .team__card-text {
+    font-size: 22px;
+  }
+  .team .team__indicator {
+    margin-bottom: -10px !important;
+  }
 }
 
 .items h6, .items .h6 {
@@ -20446,6 +20514,14 @@ body {
   left: 0;
   height: 2px;
   background-color: #E6E6F0;
+}
+.publications .publications__btn-group {
+  background: lightgrey;
+}
+.publications .publications__btn-group .publications__btn {
+  color: #323264;
+  border-color: lightgrey;
+  border-radius: 9px;
 }
 
 .footer {
@@ -20573,6 +20649,37 @@ body {
 .contacts-info .contacts-info__row .contacts-info__right {
   background: #F5F5FA;
   border-radius: 9px;
+}
+
+@media (width <= 992px) {
+  .contacts-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contacts-info .contacts-info__left {
+    margin-bottom: 60px;
+  }
+  .contacts-info__box {
+    margin-left: 30px;
+  }
+}
+@media (width <= 767px) {
+  .contacts-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contacts-info .contact-form__box {
+    margin-left: 0;
+  }
+}
+@media (width <= 556px) {
+  .contacts-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contacts-info .contact-form__box {
+    margin-left: 0;
+  }
 }
 
 /*# sourceMappingURL=home-page.css.map */

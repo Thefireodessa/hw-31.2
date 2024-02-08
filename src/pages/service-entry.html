@@ -107,7 +107,7 @@
                 </div>
 
                 <div class="services__button text-center mb-4">
-                    <button type="button" class="btn btn-blue">Free consultation</button>
+                    <a class="nav-link active" aria-current="page" data-bs-toggle="modal" data-bs-target="#contactModal"><button type="button" class="btn btn-blue">Free consultation</button></a>
                 </div>
             </div>
 
@@ -194,6 +194,50 @@
             </span>
     </div>
 </footer>
+
+
+
+<!-- Modal -->
+<div class="modal fade modal-contacts" id="contactModal" tabindex="-1" aria-labelledby="Contacts" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header modal-contacts__header">
+                <h1 class="modal-title modal-contacts__title" id="Contacts">We would like to help you</h1>
+                <button type="button" class="btn btn-lg modal-contacts__close-btn" data-bs-dismiss="modal" aria-label="Close">
+                    <i class="bi bi-x-lg"></i>
+                </button>
+            </div>
+            <div class="modal-body modal-contacts__body">
+                <form>
+                    <div class="form-floating mb-3">
+                        <input name="user_name" type="text" class="form-control" id="floatingInput" placeholder="Name">
+                        <label for="floatingInput">Name</label>
+                    </div>
+
+                    <div class="form-floating mb-4">
+                        <textarea name="message" class="form-control" placeholder="Message" id="floatingTextarea2" style="height: 130px"></textarea>
+                        <label for="floatingTextarea2">Message</label>
+                    </div>
+
+                    <div class="modal-contacts__subtitle mb-3">How to answer you?</div>
+                    <div class="form-floating mb-3">
+                        <input name="phone" type="tel" class="form-control" id="phoneNumber" placeholder="Phone number">
+                        <label for="phoneNumber">Phone number</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input name="email" type="email" class="form-control" id="emailField" placeholder="Email">
+                        <label for="emailField">Email</label>
+                    </div>
+
+                </form>
+            </div>
+            <div class="modal-footer modal-contacts__footer">
+                <button type="button" class="btn w-100 btn-blue">Send message</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="./../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>

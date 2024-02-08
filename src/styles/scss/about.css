@@ -20202,6 +20202,26 @@ body {
   /* border-bottom: solid; */
 }
 
+@media (max-width: 992px) {
+  .header {
+    padding-top: 0;
+  }
+  .header-top {
+    margin: 0 0 15px 0;
+    padding: 10px 0;
+    background: rgba(255, 255, 255, 0.6);
+  }
+  .header-top__wrapper {
+    justify-content: space-between !important;
+  }
+  .header-top__wrapper > div:after {
+    display: none !important;
+  }
+  .header-top__address, .header-top__socials {
+    display: none !important;
+  }
+}
+
 .overview .row {
   padding-left: 120px;
   padding-right: 120px;

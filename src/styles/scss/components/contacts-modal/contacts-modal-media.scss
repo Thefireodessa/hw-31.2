@@ -1,0 +1,29 @@
+.contacts-info {
+  @media (width <= 992px) {
+    display: flex;
+    flex-wrap: wrap;
+    .contacts-info__left {
+      margin-bottom: 60px;
+    }
+
+    &__box {
+      margin-left: 30px;
+    }
+  }
+
+  @media (width <= 767px) {
+    display: flex;
+    flex-wrap: wrap;
+    .contact-form__box {
+      margin-left: 0;
+    }
+  }
+
+  @media (width <= 556px) {
+    display: flex;
+    flex-wrap: wrap;
+    .contact-form__box {
+      margin-left: 0;
+    }
+  }
+}
